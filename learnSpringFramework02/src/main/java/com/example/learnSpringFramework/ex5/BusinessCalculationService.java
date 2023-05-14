@@ -21,8 +21,8 @@ import jakarta.inject.Inject;
 import jakarta.inject.Named;
 
 
-@Component
-//@Service
+//@Component
+@Service
 public class BusinessCalculationService
 {
 	private DataService dataService;

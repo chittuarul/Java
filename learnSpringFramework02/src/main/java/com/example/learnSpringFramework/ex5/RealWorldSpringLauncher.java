@@ -13,8 +13,7 @@ public class RealWorldSpringLauncher
 {
 
 	public static void main(String[] args) {
-		try(var context= new AnnotationConfigApplicationContext(
-				"RealWorldSpringLauncher.class"))
+		try(var context= new AnnotationConfigApplicationContext(RealWorldSpringLauncher.class))
 		{
 			
 			Arrays.stream(context.getBeanDefinitionNames()).forEach(System.out::println);

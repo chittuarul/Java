@@ -3,8 +3,8 @@ package com.example.learnSpringFramework.ex5;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
-@Component
-//@Repository
+//@Component
+@Repository
 public class MongoDbDataService implements DataService {
 	
 	public int[] retrieveData() {

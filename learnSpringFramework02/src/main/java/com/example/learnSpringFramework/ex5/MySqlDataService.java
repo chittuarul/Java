@@ -4,9 +4,9 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
-@Component
+//@Component
 @Primary
-//@Repository
+@Repository
 public class MySqlDataService implements DataService {
 	
 	public int[] retrieveData() {
