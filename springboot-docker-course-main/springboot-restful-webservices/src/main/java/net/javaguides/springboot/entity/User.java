@@ -25,4 +25,33 @@ public class User {
     private String lastName;
     @Column(nullable = false, unique = true)
     private String email;
+	public void setId(Long userId) {
+		// TODO Auto-generated method stub
+		
+	}
+	public Long getId() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	public Object getEmail() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	public Object getFirstName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	public void setEmail(Object email2) {
+		// TODO Auto-generated method stub
+		
+	}
+	public void setLastName(Object firstName2) {
+		// TODO Auto-generated method stub
+		
+	}
+	public void setFirstName(Object firstName2) {
+		// TODO Auto-generated method stub
+		
+	}
+	
 }
