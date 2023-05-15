@@ -1,0 +1,2 @@
+INSERT INTO course ( id,name, author) VALUES
+  (101, '2states', 'singh')); 
